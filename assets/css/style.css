@@ -19,7 +19,8 @@ h1, h2 {
     font-family: Caveat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: burlywood;
+    color: #a24603;
+
 }
 
 #logo {
@@ -64,13 +65,25 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+
+}
+
+#cover-text2, #cover-text2 h2 {
+    color: #000;
+}
+
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/akita.jpg') no-repeat center center;
-
+    
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 8s;
@@ -86,3 +99,31 @@ h1, h2 {
         transform: scale(1)
     }
 }
+
+#cover-text {
+    font-size: 225%;
+    font-family: Caveat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 250px;
+    height: 165px;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, .5);
+    top: 50px;
+    left: 100px;
+    position: absolute;
+}
+
+#cover-text2 {
+    font-size: 325%;
+    font-family: Caveat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 100%;
+    top: 450px;
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+}
+
