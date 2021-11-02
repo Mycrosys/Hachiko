@@ -8,6 +8,20 @@
 }
 
 body {
+    font-family: Quattrocento-Sans, sans-serif;
+    color: #3a3a3a;
+}
+
+/* Headings and Logo */
+
+h1, h2 {
     font-family: Caveat, sans-serif;
-    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: burlywood;
+}
+
+#logo {
+    float: left;
+    font-size: 325%;
 }
