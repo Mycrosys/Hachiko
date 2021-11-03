@@ -82,7 +82,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/akita.jpg') no-repeat center center;
+    background: url('../images/akitabw.jpg') no-repeat center center;
     
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -147,7 +147,7 @@ h1, h2 {
 #story-content {
     height: 1200px;
     width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 #left-about {
@@ -179,8 +179,34 @@ hr {
 }
 
 .left-about-heading, .right-about-heading {
-    width: 60%;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 175px;
+    height: 450px;
 }
+
+.img-container {
+    width: 520px;
+    height: 520px;
+    padding: 0 30px 30px 30px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg {
+    height: 100%;
+    border-radius: 10%;
+}
+
+#hachiko-portrait-bg {
+    background: url('../images/hachiko.jpg') no-repeat center center;
+}
+
+#waiting-img-bg {
+    background: url('../images/hachiko_waiting.jpg') no-repeat center center;
+}
+
+#legacy-img-bg {
+    background: url('../images/hachiko_legacy.jpg') no-repeat center center;
+}
+
