@@ -141,3 +141,21 @@ h1, h2 {
     padding: 5%;
     color: #fff;
 }
+
+/* Story Content */
+
+#story-content {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
