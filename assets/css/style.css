@@ -155,7 +155,7 @@ hr {
     margin: 5px 0;
 }
 
-.img-content {
+.img-content-right, .img-content-left {
     width: 520px;
     height: 520px;
     padding: 0 30px 30px 30px;
@@ -163,7 +163,7 @@ hr {
     display: inline-block;
 }
 
-.text-content {
+.text-content-right, .text-content-left {
     display: inline-block;
     vertical-align: top;
     width: 580px;
@@ -202,19 +202,37 @@ iframe {
 /* For larger to medium size screens from 1250px wide and down */
 @media screen and (max-width: 1250px) {
     #story-content {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+        width: 90%;
+        margin: 50 auto;
     }
 
-    #left-about, #right-about {
-        width: 100%;
+    .text-content-right, .text-content-left {
+        width: 45%;
+        margin-bottom: 40px;
+        height: 524px;
+    }
+
+    .text-content-right {
+        float: right;
+    }
+
+    .text-content-left {
         float: left;
-        padding: 0;
     }
 
-    hr {
-        display: none;
+    .img-content-right, .img-content-left {
+        width: 45%;
+        padding: 0%;
+        margin-bottom: 40px;
     }
+
+    .img-content-right {
+        float: right;
+    }
+
+    .img-content-left {
+        float: left;
+    }
+
 }
     
