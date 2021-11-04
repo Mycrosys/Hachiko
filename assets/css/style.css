@@ -10,7 +10,7 @@
 body {
     font-family: Quattrocento-Sans, sans-serif;
     color: #fff;
-    background-color: black;
+    background-color: #36454f;
 }
 
 /* Headings and Logo */
@@ -195,6 +195,7 @@ iframe {
     width: 900px;
     height: 300px;
     margin: 0 auto;
+    filter: grayscale(100%);  
 }
 
 /* Media queries */
@@ -233,7 +234,6 @@ iframe {
     .img-content-left {
         float: left;
     }
-
 }
 
 /* For medium to low size screens from 950px wide and down */
@@ -253,5 +253,4 @@ iframe {
     #cover-text {
         left: 50px;
     }
-    
 }
