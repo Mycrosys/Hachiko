@@ -138,7 +138,7 @@ h1, h2 {
 .social-networks i {
     font-size: 150%;
     margin: 1%;
-    padding: 3%;
+    padding: 2%;
     color: #fff;
 }
 
@@ -146,19 +146,7 @@ h1, h2 {
 
 #story-content {
     width: 1200px;
-    margin: 30px auto;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
+    margin: 50px auto;
 }
 
 hr {
@@ -167,29 +155,18 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading {
-    float: right;
-    margin-right: 20px;
-}
-
-.right-about-heading {
-    float: left;
-    margin-left: 20px;
-}
-
-.left-about-heading, .right-about-heading {
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 175px;
-    height: 450px;
-}
-
-.img-container {
+.img-content {
     width: 520px;
     height: 520px;
     padding: 0 30px 30px 30px;
     margin: 0 auto;
-    clear: both;
+    display: inline-block;
+}
+
+.text-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 580px;
 }
 
 #legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg {
@@ -211,7 +188,6 @@ hr {
 
 #statue-google-maps {
     width:100%;
-    float:left;
     text-align:center;
 }
 
@@ -220,3 +196,25 @@ iframe {
     height: 300px;
     margin: 0 auto;
 }
+
+/* Media queries */
+
+/* For larger to medium size screens from 1250px wide and down */
+@media screen and (max-width: 1250px) {
+    #story-content {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+    
