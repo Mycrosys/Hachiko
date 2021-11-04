@@ -138,14 +138,13 @@ h1, h2 {
 .social-networks i {
     font-size: 150%;
     margin: 1%;
-    padding: 5%;
+    padding: 3%;
     color: #fff;
 }
 
 /* Story Content */
 
 #story-content {
-    height: 1200px;
     width: 1200px;
     margin: 30px auto;
 }
@@ -210,3 +209,14 @@ hr {
     background: url('../images/hachiko_legacy.jpg') no-repeat center center;
 }
 
+#statue-google-maps {
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+iframe {
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+}
