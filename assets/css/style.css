@@ -10,7 +10,7 @@
 body {
     font-family: Quattrocento-Sans, sans-serif;
     color: #fff;
-    background-color: #36454f;
+    background-color: #1c2226;
 }
 
 /* Headings and Logo */
@@ -207,7 +207,7 @@ iframe {
 @media screen and (max-width: 1250px) {
     #story-content {
         width: 90%;
-        margin: 50 auto;
+        margin: 50px auto;
     }
 
     .text-content-right, .text-content-left {
