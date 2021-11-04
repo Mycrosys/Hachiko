@@ -32,7 +32,7 @@ h1, h2 {
 /* Navigation Links */
 
 #menu {
-    font-size: 150%;
+    font-size: 100%;
     letter-spacing: 4px;
 }
 
@@ -127,21 +127,6 @@ h1, h2 {
     position: absolute;
 }
 
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 2%;
-    color: #fff;
-}
-
 /* Story Content */
 
 #story-content {
@@ -195,8 +180,26 @@ iframe {
     width: 900px;
     height: 300px;
     margin: 0 auto;
-    filter: grayscale(100%);  
+    filter: grayscale(100%);
+    padding-bottom: 50px;
 }
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 2%;
+    color: #fff;
+}
+
+
 
 /* Media queries */
 
@@ -213,25 +216,17 @@ iframe {
         height: 524px;
     }
 
-    .text-content-right {
-        float: right;
-    }
-
-    .text-content-left {
-        float: left;
-    }
-
     .img-content-right, .img-content-left {
         width: 45%;
         padding: 0%;
         margin-bottom: 40px;
     }
 
-    .img-content-right {
+    .text-content-right, .img-content-right {
         float: right;
     }
-
-    .img-content-left {
+    
+    .text-content-left, .img-content-left {
         float: left;
     }
 }
@@ -252,5 +247,89 @@ iframe {
 
     #cover-text {
         left: 50px;
+    }
+    
+    #cover-text2 {
+        font-size: 200%;
+    }
+
+    .text-content-right, .img-content-right {
+        float: left;
+    }
+    
+    .text-content-left, .text-content-right, .img-content-left, .img-content-right {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 525px;
+    }
+
+    .text-content-right, .text-content-left {
+        height: auto;
+    }
+
+    iframe {
+        width: 525px;
+    }
+}
+
+/* For low to very low size screens from 650px wide and down */
+@media screen and (max-width: 650px) {
+    
+    #menu li {
+        margin-right: 10px;
+    }
+    
+    .text-content-right, .text-content-left, .img-content-right, .img-content-left {
+        width: 350px;
+    }
+
+    #cover-text {
+        left: 10px;
+        top: 300px;
+        font-size: 150%;
+        width: 200px;
+        height: 100px;
+        padding: 10px 10px;   
+    }
+    
+    #cover-text2 {
+        font-size: 125%;
+    }
+
+    iframe {
+        width: 350px;
+    }
+}
+
+/* For miniscule size screens from 360px wide and down */
+
+@media screen and (max-width: 360px) {
+    #logo {
+        margin-left: 10px;
+    }   
+
+    #menu {
+        margin-left: 10px;
+    }
+    
+    #menu li {
+        margin-right: 5px;
+        font-size: 85%;
+    }
+    
+    #cover-text2 {
+        font-size: 100%;
+    }
+
+    .text-content-left, .text-content-right, .img-content-left, .img-content-right {
+        width: 250px;
+    }
+
+    iframe {
+        width: 250px;
+    }
+
+    .text-content-left h2, .text-content-right h2 {
+        font-size: 120%;
     }
 }
