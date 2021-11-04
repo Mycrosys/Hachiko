@@ -19,8 +19,7 @@ h1, h2 {
     font-family: Caveat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #a24603;
-
+    color: #f7933e;
 }
 
 #logo {
@@ -70,7 +69,6 @@ h1, h2 {
 
 #cover-text, #cover-text h2 {
     color: #fff;
-
 }
 
 #cover-text2, #cover-text2 h2 {
@@ -82,7 +80,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/akitabw.jpg') no-repeat center center;
     
-    /* animates zoom effect on loading page */
+    /* animates zoom out effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: backwards;
@@ -144,7 +142,7 @@ h1, h2 {
 }
 
 hr {
-    border-top: 2px solid #a24603;
+    border-top: 2px solid #f7933e;
     width: 100%;
     margin: 5px 0;
 }
