@@ -141,6 +141,14 @@ h1, h2 {
     width: 580px;
 }
 
+.text-content-right, .img-content-right {
+    float: right;
+}
+
+.text-content-left, .img-content-left {
+    float: left;
+}
+
 hr {
     border-top: 2px solid #f7933e;
     width: 100%;
@@ -155,6 +163,8 @@ hr {
     padding: 0 30px 30px 30px;
     margin: 0 auto;
     display: inline-block;
+    vertical-align: top;
+    clear: both;
 }
 
 #hachiko-portrait-bg {
