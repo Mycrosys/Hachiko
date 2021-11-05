@@ -13,6 +13,14 @@ body {
     background-color: #1c2226;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #1c2226;
+    clear: both;
+    z-index: 1;
+}
+
 /* Headings and Logo */
 
 h1, h2 {
@@ -65,6 +73,7 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    top: 75px;
 }
 
 #cover-text, #cover-text h2 {
@@ -130,7 +139,7 @@ h1, h2 {
 
 #story-content {
     width: 1200px;
-    margin: 50px auto;
+    margin: 125px auto;
 }
 
 /* Story Content Text */
@@ -222,7 +231,7 @@ iframe {
 @media screen and (max-width: 1250px) {
     #story-content {
         width: 90%;
-        margin: 50px auto;
+        margin: 125px auto;
     }
 
     .text-content-right, .text-content-left, .img-content-left, .img-content-right {
@@ -234,6 +243,14 @@ iframe {
 
 /* For medium to low size screens from 950px wide and down */
 @media screen and (max-width: 950px) {
+    #story-content {
+        margin: 170px auto;
+    }
+    
+    #hero-outer {
+        top: 120px;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -314,6 +331,7 @@ iframe {
     #legacy-img-bg {
         background: url('../images/hachiko_legacy-small.jpg') no-repeat center center;
     }
+    
     iframe {
         width: 350px;
     }
