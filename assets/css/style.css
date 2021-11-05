@@ -1,5 +1,5 @@
 /* Importing Caveat and Quattrocento Sans from Google Font*/
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans&display=swap');
 
 * {
     margin: 0;
@@ -8,15 +8,15 @@
 }
 
 body {
-    font-family: Quattrocento-Sans, sans-serif;
-    color: #fff;
-    background-color: #1c2226;
+    font-family: Quattrocento-Sans, Helvetica, Arial, sans-serif;
+    color: rgb(226, 223, 218);
+    background-color: rgb(38, 38, 38);
 }
 
 header {
     position: fixed;
     width: 100%;
-    background-color: #1c2226;
+    background-color: rgba(38, 38, 38, 0.7);
     clear: both;
     z-index: 1;
 }
@@ -24,10 +24,10 @@ header {
 /* Headings and Logo */
 
 h1, h2 {
-    font-family: Caveat, sans-serif;
+    font-family: Quattrocento, Garamond, "Times New Roman";
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #f7933e;
+    color: #f89e4f;
 }
 
 #logo {
@@ -76,12 +76,13 @@ h1, h2 {
     top: 75px;
 }
 
+
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color: rgb(226, 223, 218);
 }
 
 #cover-text2, #cover-text2 h2 {
-    color: #000;
+    color: rgb(38, 38, 38);
 }
 
 #hero-image {
@@ -109,29 +110,29 @@ h1, h2 {
 /* Overlay text for Hero Image */
 
 #cover-text {
-    font-size: 225%;
-    font-family: Caveat, sans-serif;
+    font-size: 200%;
+    font-family: Quattrocento, Garamond, "Times New Roman";
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
     width: 250px;
-    height: 149px;
+    height: 125px;
     padding: 15px 15px;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(38, 38, 38, .5);
     top: 50px;
     left: 100px;
     position: absolute;
 }
 
 #cover-text2 {
-    font-size: 325%;
-    font-family: Caveat, sans-serif;
+    font-size: 200%;
+    font-family: Quattrocento, Garamond, "Times New Roman";
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
     width: 100%;
     top: 450px;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(226, 223, 218, .5);
     position: absolute;
 }
 
@@ -151,7 +152,7 @@ h1, h2 {
 }
 
 hr {
-    border-top: 2px solid #f7933e;
+    border-top: 2px solid #f89e4f;
     width: 100%;
     margin: 5px 0;
 }
@@ -161,7 +162,7 @@ hr {
 .img-content-right, .img-content-left {
     width: 520px;
     height: 520px;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 60px 30px;
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
@@ -237,7 +238,7 @@ iframe {
     .text-content-right, .text-content-left, .img-content-left, .img-content-right {
         width: 45%;
         padding: 0%;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 }
 
