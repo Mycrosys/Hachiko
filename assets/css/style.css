@@ -301,6 +301,23 @@ iframe {
         font-size: 125%;
     }
 
+    .img-content-right, .img-content-left {
+        width: 300px;
+        height: 300px;
+        padding: 0 30px 30px 30px;
+    }
+
+    #hachiko-portrait-bg {
+        background: url('../images/hachiko-small.jpg') no-repeat center center;
+    }
+    
+    #waiting-img-bg {
+        background: url('../images/hachiko_waiting-small.jpg') no-repeat center center;
+    }
+    
+    #legacy-img-bg {
+        background: url('../images/hachiko_legacy-small.jpg') no-repeat center center;
+    }
     iframe {
         width: 350px;
     }
