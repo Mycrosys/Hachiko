@@ -157,6 +157,12 @@ hr {
     margin: 5px 0;
 }
 
+.text-content-right a, .text-content-left a {
+    text-decoration: none;
+    color: rgb(226, 223, 218);
+    font-weight: bold;
+}
+
 /* Story Content Image */
 
 .img-content-right, .img-content-left {
