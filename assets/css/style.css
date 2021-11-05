@@ -141,14 +141,6 @@ h1, h2 {
     width: 580px;
 }
 
-.text-content-right, .img-content-right {
-    float: right;
-}
-
-.text-content-left, .img-content-left {
-    float: left;
-}
-
 hr {
     border-top: 2px solid #f7933e;
     width: 100%;
@@ -165,6 +157,14 @@ hr {
     display: inline-block;
     vertical-align: top;
     clear: both;
+}
+
+.text-content-right, .img-content-right {
+    float: right;
+}
+
+.text-content-left, .img-content-left {
+    float: left;
 }
 
 #hachiko-portrait-bg {
@@ -314,7 +314,7 @@ iframe {
     .img-content-right, .img-content-left {
         width: 300px;
         height: 300px;
-        padding: 0 30px 30px 30px;
+        padding: 0 30px;
     }
 
     #hachiko-portrait-bg {
