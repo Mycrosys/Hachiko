@@ -175,6 +175,12 @@ hr {
     clear: both;
 }
 
+.img-content-right iframe, .img-content-left iframe {
+    width: 520px;
+    height: 293px;
+    filter: none;
+}
+
 .text-content-right, .img-content-right {
     float: right;
 }
@@ -213,6 +219,7 @@ iframe {
     margin: 0 auto;
     filter: grayscale(100%);
     padding-bottom: 50px;
+    display: block;
 }
 
 /* Social Network Links & Symbols (Awesomefont) in Footer */
@@ -245,6 +252,11 @@ iframe {
         width: 45%;
         padding: 0%;
         margin-bottom: 60px;
+    }
+
+    .img-content-right iframe, .img-content-left iframe {
+        width: 100%;
+        height: 293px;
     }
 }
 
@@ -295,6 +307,11 @@ iframe {
     iframe {
         width: 525px;
     }
+
+    .img-content-right iframe, .img-content-left iframe {
+        width: 520px;
+        height: 293px;
+    }
 }
 
 /* For low to very low size screens from 650px wide and down */
@@ -305,7 +322,7 @@ iframe {
     }
     
     .text-content-right, .text-content-left, .img-content-right, .img-content-left {
-        width: 350px;
+        width: 300px;
     }
 
     #cover-text {
@@ -322,7 +339,6 @@ iframe {
     }
 
     .img-content-right, .img-content-left {
-        width: 300px;
         height: 300px;
         padding: 0 30px;
     }
@@ -341,6 +357,12 @@ iframe {
     
     iframe {
         width: 350px;
+    }
+
+    .img-content-right iframe, .img-content-left iframe {
+        width: 300px;
+        height: 169px;
+        padding: 0%;
     }
 }
 
@@ -365,12 +387,17 @@ iframe {
 
     .text-content-left, .text-content-right, .img-content-left, .img-content-right {
         width: 250px;
+        padding: 30px 5px 0px;
     }
 
     iframe {
         width: 250px;
     }
 
+    .img-content-right iframe, .img-content-left iframe {
+        width: 250px;
+        height: 141px;
+    }
     .text-content-left h2, .text-content-right h2 {
         font-size: 120%;
     }
