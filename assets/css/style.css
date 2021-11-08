@@ -168,7 +168,7 @@ hr {
 .img-content-right, .img-content-left {
     width: 520px;
     height: 520px;
-    padding: 0 30px 60px 30px;
+    padding: 0 30px 60px;
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
@@ -180,7 +180,7 @@ hr {
 .mov-content-right, .mov-content-left {
     width: 520px;
     height: auto;
-    padding: 0 30px 60px 30px;
+    padding: 0 30px 60px;
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
@@ -349,7 +349,7 @@ iframe {
         font-size: 150%;
         width: 200px;
         height: 100px;
-        padding: 10px 10px;   
+        padding: 10px;   
     }
     
     #cover-text2 {
