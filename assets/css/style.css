@@ -286,6 +286,23 @@ iframe {
     border-radius: 5px;
 }
 
+#enter-raffle-button {
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 3px solid #f89e4f;
+    text-align: center;
+    color: rgb(226, 223, 218);
+    background-color: rgb(38, 38, 38);
+    display: block;
+    font-size: 140%;
+}
+
+#enter-raffle-button:hover {
+    background-color: rgb(226, 223, 218);
+    color: rgb(38, 38, 38);
+}
+
 
 /* Media queries Sizes 1250px-950px, 950px-650px, 650px-360px and 360px-280px */
 
