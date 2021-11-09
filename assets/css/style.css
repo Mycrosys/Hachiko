@@ -143,6 +143,13 @@ h1, h2 {
     margin: 135px auto;
 }
 
+
+#raffle-content {
+    width: 600px;
+    margin: 135px auto;
+} 
+
+
 /* Story Content Text */
 
 .text-content-right, .text-content-left {
@@ -257,6 +264,30 @@ iframe {
     color: #fff;
 }
 
+/* Raffle Form */
+
+.text-field {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid rgb(226, 223, 218);
+    border-radius: 5px;
+}
+
+.radio_pets {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+#comment-field {
+    width: 100%;
+    height: 250px;
+    margin: 5px 0 20px 0;
+    border: 2px solid rgb(226, 223, 218);
+    border-radius: 5px;
+}
+
+
 /* Media queries Sizes 1250px-950px, 950px-650px, 650px-360px and 360px-280px */
 
 /* For larger to medium size screens from 1250px wide and down */
@@ -339,6 +370,10 @@ iframe {
         margin-right: 10px;
     }
     
+    #raffle-content {
+        width: 100%;
+    }
+
     .text-content-right, .text-content-left, .img-content-right, .img-content-left, .mov-content-right, .mov-content-left {
         width: 300px;
     }
@@ -395,7 +430,7 @@ iframe {
     }   
 
     #menu {
-        margin-left: 10px;
+        margin-left: 5px;
     }
     
     #menu li {
