@@ -46,7 +46,41 @@
     
     <!-- Main Story Content with pictures next to it alternating left and right -->
     <section id="story-content">
-    
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Enter the Raffle to win one of 10 Hachiko Keychains!</h2>
+            
+            <hr><br>
+            
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            
+            <br>
+
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text"required>
+            
+            <br>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            
+            <br><br>
+            
+            <h3>Do you own pets?</h3>
+            <label for="dog">I have at least one dog.</label>
+            <input type="radio" id="dog" name="pets" value="dog" required><br>
+            <label for="another">I have other Pets (e.g. a cat).</label>
+            <input type="radio" id="other" name="pets" value="other" required><br>
+            <label for="none">I have no pets.</label>
+            <input type="radio" id="none" name="pets" value="none" required>
+            
+            <br><br>
+
+            <h3>Tell us, in your own words, how the Story of Hachiko made you feel.</h3>
+            <textarea name="story_feedback" value="story_feedback" placeholder="How did the story make you feel?" cols="50" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enter the Raffle">
+        </form>
     </section>
        
     <hr>
