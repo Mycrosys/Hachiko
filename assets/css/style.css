@@ -278,7 +278,7 @@ iframe {
     display: block;
 }
 
-.radio_pets {
+.radio_pets, #newsletter-box {
     margin: 0 10px;
 }
 
@@ -286,7 +286,7 @@ iframe {
     height: 250px;
 }
 
-#enter-raffle-button {
+#enter-button, #reset-button {
     margin-top: 15px;
     border-radius: 5px;
     padding: 10px 15px;
@@ -294,15 +294,18 @@ iframe {
     text-align: center;
     color: rgb(226, 223, 218);
     background-color: rgb(38, 38, 38);
-    display: block;
     font-size: 140%;
+    float: left;
 }
 
-#enter-raffle-button:hover {
+#reset-button {
+    float: right;
+}
+
+#enter-button:hover, #reset-button:hover {
     background-color: rgb(226, 223, 218);
     color: rgb(38, 38, 38);
 }
-
 
 /* Media queries Sizes 1250px-950px, 950px-650px, 650px-360px and 360px-280px */
 

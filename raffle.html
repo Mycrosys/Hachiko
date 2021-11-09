@@ -51,17 +51,17 @@
             
             <hr><br>
             
-            <label for="fname">First Name:</label>
+            <label for="fname"><h3>Name:</h3></label>
             <input class="text-field" id="fname" name="first_name" type="text" required>
             
             <br>
 
-            <label for="lname">Last Name:</label>
+            <label for="lname"><h3>Last Name:</h3></label>
             <input class="text-field" id="lname" name="last_name" type="text"required>
             
             <br>
             
-            <label for="email">Email Address:</label>
+            <label for="email"><h3>Email Address:</h3></label>
             <input class="text-field" type="email" id="email" name="email_address" required>
             
             <br>
@@ -76,11 +76,15 @@
                         
             <br><br>
 
-            <h3>Tell us how the Story of Hachiko made you feel.</h3>
+            <h3>Tell us how Hachiko's Story makes you feel.</h3>
             <br>
             <textarea id="comment-field" name="story_feedback" value="story_feedback" placeholder="How did the story make you feel?" cols="50" rows="10"></textarea>
             <br>
-            <input id="enter-raffle-button" type="submit" value="Enter the Raffle">
+            <input id="newsletter-box" type="checkbox" id="newsletter" name="newsletter" value="newsletter" checked>
+            <label for="checkbox">Sign Up for our Newsletter</label><br>
+            <br>
+            <input id="enter-button" type="submit" value="Enter">
+            <button id="reset-button" type="reset">Reset</button>
         </form>
     </section>
        
