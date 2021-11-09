@@ -88,7 +88,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/akitabw.jpg') no-repeat center center;
+    background: url('../images/akitabw.webp') no-repeat center center;
     
     /* animates zoom out effect on loading page */
     animation-name: hero-zoom;
@@ -210,19 +210,15 @@ hr {
 }
 
 #hachiko-portrait-bg {
-    background: url('../images/hachiko.jpg') no-repeat center center;
+    background: url('../images/hachiko.webp') no-repeat center center;
 }
 
 #waiting-img-bg {
-    background: url('../images/hachiko_waiting.jpg') no-repeat center center;
+    background: url('../images/hachiko_waiting.webp') no-repeat center center;
 }
 
 #legacy-img-bg {
-    background: url('../images/hachiko_legacy.jpg') no-repeat center center;
-}
-
-#book-img-bg {
-    background: url('../images/hachiko_book.jpg') no-repeat center center;
+    background: url('../images/hachiko_legacy.webp') no-repeat center center;
 }
 
 #legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg, #book-img-bg {
@@ -347,7 +343,7 @@ iframe {
     }
 
     #hero-image {
-        background: url('../images/akitabw-small.jpg') no-repeat center center;
+        background: url('../images/akitabw-small.webp') no-repeat center center;
     }
 
     #cover-text {
@@ -416,19 +412,15 @@ iframe {
     }
 
     #hachiko-portrait-bg {
-        background: url('../images/hachiko-small.jpg') no-repeat center center;
+        background: url('../images/hachiko-small.webp') no-repeat center center;
     }
     
     #waiting-img-bg {
-        background: url('../images/hachiko_waiting-small.jpg') no-repeat center center;
+        background: url('../images/hachiko_waiting-small.webp') no-repeat center center;
     }
     
     #legacy-img-bg {
-        background: url('../images/hachiko_legacy-small.jpg') no-repeat center center;
-    }
-
-    #book-img-bg {
-        background: url('../images/hachiko_book_small.jpg') no-repeat center center;
+        background: url('../images/hachiko_legacy-small.webp') no-repeat center center;
     }
     
     iframe {
