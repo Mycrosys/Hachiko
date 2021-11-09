@@ -266,15 +266,16 @@ iframe {
 
 /* Raffle Form */
 
-.text-field {
-    width: 100%;
+.text-field, #comment-field {
+    width: 90%;
     height: 25px;
-    margin: 5px 0 20px 0;
-    border: 2px solid rgb(226, 223, 218);
+    margin: 5px auto 15px;
+    border: 5px solid rgb(226, 223, 218);
     border-radius: 5px;
     font-family: Quattrocento, Garamond, "Times New Roman";
     font-size: 120%;
     padding: 5px;
+    display: block;
 }
 
 .radio_pets {
@@ -282,15 +283,7 @@ iframe {
 }
 
 #comment-field {
-    width: 100%;
     height: 250px;
-    margin: 5px 0 20px 0;
-    border: 2px solid rgb(226, 223, 218);
-    border-radius: 5px;
-    resize: none;
-    font-family: Quattrocento, Garamond, "Times New Roman";
-    font-size: 120%;
-    padding: 5px;
 }
 
 #enter-raffle-button {
