@@ -472,7 +472,12 @@ iframe {
         width: 250px;
         height: 141px;
     }
+    
     .text-content-left h2, .text-content-right h2 {
         font-size: 120%;
+    }
+
+    .social-networks i {
+        padding: 20px 10px;
     }
 }
