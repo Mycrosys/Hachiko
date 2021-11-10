@@ -76,7 +76,6 @@ h1, h2 {
     top: 75px;
 }
 
-
 #cover-text, #cover-text h2 {
     color: rgb(226, 223, 218);
 }
@@ -136,19 +135,19 @@ h1, h2 {
     position: absolute;
 }
 
-/* Story Content */
+/* Story Content - img/movie on one side, text on the other 2 columns - centered */
 
 #story-content {
     width: 1200px;
     margin: 135px auto;
 }
 
+/* Raffle Content - 1 column - centered */
 
 #raffle-content {
     width: 600px;
     margin: 135px auto;
 } 
-
 
 /* Story Content Text */
 
@@ -182,7 +181,7 @@ hr {
     clear: both;
 }
 
-/* Movie Content */
+/* Story Content Movie */
 
 .mov-content-right, .mov-content-left {
     width: 520px;
@@ -209,6 +208,8 @@ hr {
     float: left;
 }
 
+/* Story Content img implemented as background */
+
 #hachiko-portrait-bg {
     background: url('../images/hachiko.webp') no-repeat center center;
 }
@@ -226,7 +227,7 @@ hr {
     border-radius: 10%;
 }
 
-/* Google maps wrapper and iframe */
+/* Google maps wrapper and iframe on index page */
 
 #statue-google-maps {
     width: 100%;
@@ -241,23 +242,6 @@ iframe {
     filter: grayscale(100%);
     padding-bottom: 60px;
     clear: both;
-}
-
-/* Social Network Links & Symbols (Awesomefont) in Footer */
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 150%;
-    margin: 10px;
-    padding: 20px;
-    color: #fff;
 }
 
 /* Raffle Form */
@@ -312,6 +296,23 @@ iframe {
 #enter-button:hover, #reset-button:hover {
     background-color: rgb(226, 223, 218);
     color: rgb(38, 38, 38);
+}
+
+/* Social Network Links & Symbols (Awesomefont) in Footer */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 10px;
+    padding: 20px;
+    color: #fff;
 }
 
 /* Media queries Sizes 1250px-950px, 950px-650px, 650px-360px and 360px-280px */
