@@ -229,8 +229,9 @@ hr {
 /* Google maps wrapper and iframe */
 
 #statue-google-maps {
-    width:100%;
+    width: 100%;
     text-align:center;
+    display: inline-block;
 }
 
 iframe {
@@ -238,8 +239,7 @@ iframe {
     height: 300px;
     margin: 0 auto;
     filter: grayscale(100%);
-    padding-bottom: 50px;
-    display: block;
+    padding-bottom: 60px;
     clear: both;
 }
 
@@ -255,8 +255,8 @@ iframe {
 
 .social-networks i {
     font-size: 150%;
-    margin: 1%;
-    padding: 2%;
+    margin: 10px;
+    padding: 20px;
     color: #fff;
 }
 
