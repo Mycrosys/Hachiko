@@ -274,7 +274,11 @@ iframe {
     display: block;
 }
 
-.radio_pets, #newsletter-box {
+.radio_pets {
+    transform: scale(2);
+    margin: 15px;
+}
+#newsletter-box {
     margin: 0 10px;
 }
 
