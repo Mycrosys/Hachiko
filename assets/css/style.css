@@ -262,6 +262,11 @@ iframe {
 
 /* Raffle Form */
 
+.form-labels {
+    font-family: Quattrocento, Garamond, "Times New Roman";
+    font-size: 160%;
+}
+
 .text-field, #comment-field {
     width: 90%;
     height: 25px;
@@ -278,6 +283,7 @@ iframe {
     transform: scale(2);
     margin: 15px;
 }
+
 #newsletter-box {
     margin: 0 10px;
 }
