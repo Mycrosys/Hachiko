@@ -221,7 +221,7 @@ hr {
     background: url('../images/hachiko_legacy.webp') no-repeat center center;
 }
 
-#legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg, #book-img-bg {
+#legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg {
     height: 100%;
     border-radius: 10%;
 }
@@ -358,11 +358,17 @@ iframe {
     }
 
     #cover-text {
-        left: 50px;
+        left: 10px;
+        top: 50px;
+        font-size: 150%;
+        width: 200px;
+        height: 100px;
+        padding: 10px;   
     }
     
     #cover-text2 {
-        font-size: 200%;
+        font-size: 125%;
+        top: 350px;
     }
 
     .text-content-right, .img-content-right, .mov-content-right {
@@ -402,19 +408,6 @@ iframe {
 
     .text-content-right, .text-content-left, .img-content-right, .img-content-left, .mov-content-right, .mov-content-left {
         width: 300px;
-    }
-
-    #cover-text {
-        left: 10px;
-        top: 300px;
-        font-size: 150%;
-        width: 200px;
-        height: 100px;
-        padding: 10px;   
-    }
-    
-    #cover-text2 {
-        font-size: 125%;
     }
 
     .img-content-right, .img-content-left {
