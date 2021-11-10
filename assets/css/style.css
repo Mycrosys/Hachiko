@@ -285,7 +285,8 @@ iframe {
 }
 
 #newsletter-box {
-    margin: 0 10px;
+    transform: scale(2);
+    margin: 15px;
 }
 
 #comment-field {
