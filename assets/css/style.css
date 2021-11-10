@@ -343,6 +343,7 @@ iframe {
     
     #hero-outer {
         top: 120px;
+        height: 450px;
     }
 
     #menu {
@@ -354,6 +355,7 @@ iframe {
     }
 
     #hero-image {
+        height: 450px;
         background: url('../images/akitabw-small.webp') no-repeat center center;
     }
 
