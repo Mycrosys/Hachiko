@@ -149,12 +149,38 @@ h1, h2 {
     margin: 135px auto;
 } 
 
-/* Story Content Text */
+/* Story Content - 2 column */
 
-.text-content-right, .text-content-left {
+.two_column_content {
     display: inline-block;
     vertical-align: top;
-    width: 580px;
+    width: 520px;
+    padding: 0 30px 60px;
+    height: auto;
+}
+
+/* General formatting for content inside two_column_content */
+
+.content_img {
+    height: 520px;
+    clear: both;
+}
+
+.two_column_content a {
+    text-decoration: none;
+    color: rgb(226, 223, 218);
+    font-weight: bold;
+}
+
+.two_column_content iframe {
+    width: 520px;
+    height: 293px;
+    filter: none;
+    padding: 0;
+}
+
+.text-quote {
+    font-style: italic;
 }
 
 hr {
@@ -164,56 +190,21 @@ hr {
     clear: both;
 }
 
-.text-content-right a, .text-content-left a {
-    text-decoration: none;
-    color: rgb(226, 223, 218);
-    font-weight: bold;
-}
+/* General classes for positioning */
 
-/* Story Content Image */
-
-.img-content-right, .img-content-left {
-    width: 520px;
-    height: 520px;
-    padding: 0 30px 60px;
+.content_center {
     margin: 0 auto;
-    display: inline-block;
-    vertical-align: top;
-    clear: both;
 }
 
-/* Story Content Movie */
-
-.mov-content-right, .mov-content-left {
-    width: 520px;
-    height: auto;
-    padding: 0 30px 60px;
-    margin: 0 auto;
-    display: inline-block;
-    vertical-align: top;
-    clear: both;
-}
-
-.mov-content-right iframe, .mov-content-left iframe {
-    width: 520px;
-    height: 293px;
-    filter: none;
-    padding: 0;
-}
-
-.text-content-right, .img-content-right, .mov-content-right {
-    float: right;
-}
-
-.text-content-left, .img-content-left, .mov-content-left {
+.content_left {
     float: left;
 }
 
-.text-quote {
-    font-style: italic;
+.content_right {
+    float: right;
 }
 
-/* Story Content img implemented as background */
+/* Images implemented as background with rounded edges */
 
 #hachiko-portrait-bg {
     background: url('../images/hachiko.jpg') no-repeat center center;
@@ -252,7 +243,7 @@ hr {
     display: inline-block;
 }
 
-iframe {
+#statue-google-maps iframe {
     width: 900px;
     height: 300px;
     margin: 0 auto;
@@ -342,13 +333,13 @@ iframe {
         margin: 135px auto;
     }
 
-    .text-content-right, .text-content-left, .img-content-left, .img-content-right, .mov-content-left, .mov-content-right {
+    .two_column_content {
         width: 45%;
         padding: 0%;
         margin-bottom: 60px;
     }
 
-    .mov-content-right iframe, .mov-content-left iframe {
+    .two_column_content iframe {
         width: 100%;
         height: 293px;
     }
@@ -392,25 +383,21 @@ iframe {
         top: 375px;
     }
 
-    .text-content-right, .img-content-right, .mov-content-right {
+    .content_right {
         float: left;
     }
     
-    .text-content-left, .text-content-right, .img-content-left, .img-content-right, .mov-content-left, .mov-content-right {
+    .two_column_content {
         margin-left: 50%;
         transform: translateX(-50%);
         width: 525px;
     }
 
-    .text-content-right, .text-content-left {
-        height: auto;
-    }
-
-    iframe {
+    #statue-google-maps iframe {
         width: 525px;
     }
 
-    .mov-content-right iframe, .mov-content-left iframe {
+    .two_column_content iframe {
         width: 520px;
         height: 293px;
     }
@@ -427,11 +414,11 @@ iframe {
         width: 100%;
     }
 
-    .text-content-right, .text-content-left, .img-content-right, .img-content-left, .mov-content-right, .mov-content-left {
+    .two_column_content {
         width: 300px;
     }
 
-    .img-content-right, .img-content-left {
+    .content_img {
         height: 300px;
         padding: 0 30px;
     }
@@ -456,11 +443,11 @@ iframe {
         background: url('../images/hachikowaits_book_small.jpg') no-repeat center center;
     }
 
-    iframe {
+    #statue-google-maps iframe {
         width: 350px;
     }
 
-    .mov-content-right iframe, .mov-content-left iframe {
+    .two_column_content iframe {
         width: 300px;
         height: 169px;
         padding: 0%;
@@ -486,21 +473,21 @@ iframe {
         font-size: 100%;
     }
 
-    .text-content-left, .text-content-right, .img-content-left, .img-content-right, .mov-content-left, .mov-content-right {
+    .two_column_content {
         width: 250px;
         padding: 0 5px;
     }
 
-    iframe {
+    #statue-google-maps iframe {
         width: 250px;
     }
 
-    .mov-content-right iframe, .mov-content-left iframe {
+    .two_column_content iframe {
         width: 250px;
         height: 141px;
     }
     
-    .text-content-left h2, .text-content-right h2 {
+    .two_column_content h2 {
         font-size: 120%;
     }
 
