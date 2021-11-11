@@ -172,6 +172,10 @@ h1, h2 {
     font-weight: bold;
 }
 
+.two_column_content a:hover {
+    border-bottom: 1px solid rgb(226, 223, 218);
+}
+
 .two_column_content iframe {
     width: 520px;
     height: 293px;
