@@ -139,7 +139,7 @@ h1, h2 {
 
 #story-content {
     width: 1200px;
-    margin: 135px auto;
+    margin: 135px auto 60px;
 }
 
 /* Raffle Content - 1 column - centered */
@@ -348,7 +348,7 @@ hr {
 /* For medium to low size screens from 950px wide and down */
 @media screen and (max-width: 950px) {
     #story-content {
-        margin: 180px auto;
+        margin: 180px auto 60px;
     }
     
     #hero-outer {
