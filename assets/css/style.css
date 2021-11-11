@@ -59,11 +59,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(226, 223, 218);
 }
 
 .active {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(226, 223, 218);
 }
 
 /* Hero Image */
@@ -330,7 +330,7 @@ iframe {
     font-size: 150%;
     margin: 10px;
     padding: 20px;
-    color: #fff;
+    color: rgb(226, 223, 218);
 }
 
 /* Media queries Sizes 1250px-950px, 950px-650px, 650px-360px and 360px-280px */
