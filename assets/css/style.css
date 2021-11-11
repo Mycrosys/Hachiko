@@ -208,33 +208,9 @@ hr {
     float: right;
 }
 
-/* Images implemented as background with rounded edges */
+/* Rounded edges for images */
 
-#hachiko-portrait-bg {
-    background: url('../images/hachiko.jpg') no-repeat center center;
-}
-
-#waiting-img-bg {
-    background: url('../images/hachiko_waiting.jpg') no-repeat center center;
-}
-
-#legacy-img-bg {
-    background: url('../images/hachiko_legacy.jpg') no-repeat center center;
-}
-
-#legacy-img-bg {
-    background: url('../images/hachiko_legacy.jpg') no-repeat center center;
-}
-
-#truestorybook-img-bg {
-    background: url('../images/hachiko_truestory_book.jpg') no-repeat center center;
-}
-
-#hachikowaitsbook-img-bg {
-    background: url('../images/hachikowaits_book.jpg') no-repeat center center;
-}
-
-#legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg, #truestorybook-img-bg, #hachikowaitsbook-img-bg {
+.content_img img {
     height: 100%;
     border-radius: 10%;
 }
@@ -333,12 +309,12 @@ hr {
 /* For larger to medium size screens from 1250px wide and down */
 @media screen and (max-width: 1250px) {
     #story-content {
-        width: 90%;
+        width: 900px;
         margin: 135px auto;
     }
 
     .two_column_content {
-        width: 45%;
+        width: 425px;
         padding: 0%;
         margin-bottom: 60px;
     }
@@ -347,11 +323,17 @@ hr {
         width: 100%;
         height: 293px;
     }
+
+    .content_img {
+        height: 425px;
+        padding: 0%;
+    }
 }
 
 /* For medium to low size screens from 950px wide and down */
 @media screen and (max-width: 950px) {
     #story-content {
+        width: 90%;
         margin: 180px auto 60px;
     }
     
@@ -397,6 +379,10 @@ hr {
         width: 525px;
     }
 
+    .content_img {
+        height: 520px;
+    } 
+
     #statue-google-maps iframe {
         width: 525px;
     }
@@ -427,26 +413,6 @@ hr {
         padding: 0 30px;
     }
 
-    #hachiko-portrait-bg {
-        background: url('../images/hachiko-small.jpg') no-repeat center center;
-    }
-    
-    #waiting-img-bg {
-        background: url('../images/hachiko_waiting-small.jpg') no-repeat center center;
-    }
-    
-    #legacy-img-bg {
-        background: url('../images/hachiko_legacy-small.jpg') no-repeat center center;
-    }
-    
-    #truestorybook-img-bg {
-        background: url('../images/hachiko_truestory_book_small.jpg') no-repeat center center;
-    }
-
-    #hachikowaitsbook-img-bg {
-        background: url('../images/hachikowaits_book_small.jpg') no-repeat center center;
-    }
-
     #statue-google-maps iframe {
         width: 350px;
     }
@@ -475,6 +441,11 @@ hr {
     
     #cover-text2 {
         font-size: 100%;
+    }
+
+    .content_img {
+        height: 250px;
+        padding: 0 5px;
     }
 
     .two_column_content {
