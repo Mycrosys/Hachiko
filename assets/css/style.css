@@ -209,6 +209,10 @@ hr {
     float: left;
 }
 
+.text-quote {
+    font-style: italic;
+}
+
 /* Story Content img implemented as background */
 
 #hachiko-portrait-bg {
@@ -223,7 +227,19 @@ hr {
     background: url('../images/hachiko_legacy.webp') no-repeat center center;
 }
 
-#legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg {
+#legacy-img-bg {
+    background: url('../images/hachiko_legacy.webp') no-repeat center center;
+}
+
+#truestorybook-img-bg {
+    background: url('../images/hachiko_truestory_book.jpg') no-repeat center center;
+}
+
+#hachikowaitsbook-img-bg {
+    background: url('../images/hachikowaits_book.jpg') no-repeat center center;
+}
+
+#legacy-img-bg, #waiting-img-bg, #hachiko-portrait-bg, #truestorybook-img-bg, #hachikowaitsbook-img-bg {
     height: 100%;
     border-radius: 10%;
 }
@@ -432,6 +448,14 @@ iframe {
         background: url('../images/hachiko_legacy-small.webp') no-repeat center center;
     }
     
+    #truestorybook-img-bg {
+        background: url('../images/hachiko_truestory_book_small.jpg') no-repeat center center;
+    }
+
+    #hachikowaitsbook-img-bg {
+        background: url('../images/hachikowaits_book_small.jpg') no-repeat center center;
+    }
+
     iframe {
         width: 350px;
     }
