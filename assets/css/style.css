@@ -161,6 +161,7 @@ hr {
     border-top: 2px solid #f89e4f;
     width: 100%;
     margin: 5px 0;
+    clear: both;
 }
 
 .text-content-right a, .text-content-left a {
@@ -302,6 +303,7 @@ iframe {
 
 .social-networks {
     text-align: center;
+    clear: both;
 }
 
 .social-networks > li {
