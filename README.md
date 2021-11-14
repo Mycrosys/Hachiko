@@ -65,7 +65,7 @@ This is an informational website about the story of a Japanese Dog around the 19
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the project's code after being pushed from Git.
 1. [Gimp:](https://www.gimp.org/)
     - Gimp was used to create, modify and resize all images on this website. It was also used to create the wireframes.
 
@@ -89,12 +89,12 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the story of Hachiko.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Hachiko's name in Japanese as well as the Headline "A Heartbreaking Story", which should lead to the conclusion that there is a Japanese or at least asian based story about a dog coming up.
-        2. The user has two several options. Scroll down to learn more about the general story, look up other media ressources about it or take part in a raffle to win something (this raffle is not real, it is just there to show my competency with html and css).
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Hachiko's name in Japanese as well as the Headline "A Heartbreaking Story", which should lead to the conclusion that there is a Japanese or at least an Asian based story about a dog coming up.
+        2. The user has two several options. Scroll down to learn more about the general story, look up other media resources about it or take part in a raffle to win something (this raffle is not real, it is just there to show my competency with HTML and CSS).
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-        1. The site has been designed so each page can stand on its own and the user can freely chose to switch between each of them at any time. The Navigation points are named fittingly, so the visitor always knows what to expect on that site.
+        1. The site has been designed so each page can stand on its own and the visitor can freely choose to switch between each of them at any time. The Navigation points were named fittingly, so the visitor always knows what to expect on that site.
         2. The Navigation is fixed at the top and scrolls with the page. It is semi transparent to not obscure the top content fully, yet is read- and useable at any time-
 
 -   #### Returning Visitor Goals
@@ -116,7 +116,7 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
 ### Known Bugs
 
--   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k Display), the Hero Image does no longer cover 100% of the width and the cover text falls outside of it.
+-   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k Display), the Hero Image is no longer covering 100% of the width and the cover text falls outside of it.
 -   On Desktop Devices with a very low resolution (below 260px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
 
 ## Deployment
@@ -156,7 +156,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode). The same goes for the keyframe animation as well as the footer code. However, none of these 3 remain in its original form because they have been modified and styled differently in several aspects to fit the sites need.
+-   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode). The same goes for the keyframe animation as well as the footer code. However, none of these 3 remaining in its original form because they have been modified and styled differently in several aspects to fit the sites need.
 
 ### Content
 
@@ -178,9 +178,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - The Cover Image of "Hachiko: The True Story of a loyal Dog" by Pamela S. Turner comes from <a href="https://www.amazon.co.uk/Hachiko-True-Story-Loyal-Dog/dp/0547237553/ref=sr_1_2?keywords=hachiko&qid=1636647758&qsid=257-5039210-9072519&sr=8-2&sres=B08WV8HYY2%2C0547237553%2CB00005G2DH%2C0312558066%2CB08HTVRZK2%2CB01B3A1BNU%2CB08HTKBRKT%2CB015QN628E%2C190686196X%2CB07Q57TR85%2C1973380137%2CB00H36AK2W%2CB07VLGD3R2%2CB071RN7MPQ%2CB01CRM9S74%2CB07WYZZXKL&srpt=DOWNLOADABLE_MOVIE">Amazon</a> and the illustration of it was done by Yan Nascimbene.
 
-- The Movie Trailer of "Hachiko Monogatari" comes from the <a href="https://www.youtube.com/watch?v=d_u1FrfgSwo">HD Retro Trailers Channel on Youtube</a>. Copyright belongs to the <a href="https://www.shochiku.co.jp/global/">Shochiku Company</a>.
+- The Movie Trailer of "Hachiko Monogatari" comes from the <a href="https://www.youtube.com/watch?v=d_u1FrfgSwo">HD Retro Trailers Channel on YouTube</a>. Copyright belongs to the <a href="https://www.shochiku.co.jp/global/">Shochiku Company</a>.
 
-- The Movie Trailer of "Hachi - A Dog's Tale" comes from the <a href="https://www.youtube.com/watch?v=Y6U7mAnPtw4&t=1s">Official Sony Pictures Home Entertainment Youtube Channel</a>. Copyright belongs to <a href="https://www.sonypictures.com/">Sony Pictures Home Entertainment</a>.
+- The Movie Trailer of "Hachi - A Dog's Tale" comes from the <a href="https://www.youtube.com/watch?v=Y6U7mAnPtw4&t=1s">Official Sony Pictures Home Entertainment YouTube Channel</a>. Copyright belongs to <a href="https://www.sonypictures.com/">Sony Pictures Home Entertainment</a>.
 
 ### Readme
 
