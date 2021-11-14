@@ -158,3 +158,36 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode). The same goes for the keyframe animation as well as the footer code. However, none of these 3 remain in its original form because they have been modified and styled differently in several aspects to fit the sites need.
 
+### Content
+
+-   All content was written by the developer, except for the Descriptions of the Books on media.html, written in quotes and italicized. These are from the descriptions of mentioned books and the intellectual property of their respective owners.
+
+-   The pairings of the colors and fonts comes from [this Blog post](https://www.pagecloud.com/blog/best-google-fonts-pairings).
+
+### Media
+
+- The Akita Hero Image comes from <a href="https://pixabay.com/users/maxxxiss-19205165/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5763408">maxxxiss</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5763408">Pixabay</a>.
+
+- Hachiko's Portrait on index.html comes from an Unknown Author from <a href="https://en.wikipedia.org/wiki/Hachik%C5%8D#/media/File:Hachiko.JPG">Wikipedia</a>.
+
+- Hachiko Waiting Image on index.html was taken by Isamu Yamamoto. It was discovered after 80 years when his family was cleaning the house and then given to the sculptur of the second statue, Takeshi Ando, who shared it with the world. The image was taken from the <a href="https://moviepaws.com/2015/11/12/rare-photo-of-legendarily-loyal-japanese-dog-hachiko/">Moviepaws</a> website.
+
+- One year anniversary of Hachiko's death picture on index.html comes from an Unknown Author from "Showa Day by Day" volume 4, Kodansha Co., 1989. The Image was taken from <a href="https://en.wikipedia.org/wiki/Hachik%C5%8D#/media/File:One_anniversary_of_Hachiko_19360308_Scan10038.JPG">Wikipedia</a>.
+
+- The Cover Image of "Hachiko Waits" by Lesléa Newman comes from <a href="https://www.amazon.co.uk/Hachiko-Waits-Leslea-Newman/dp/0312558066/ref=sr_1_1?keywords=hachiko+waits&qid=1636647742&qsid=257-5039210-9072519&sr=8-1&sres=0312558066%2CB016Q2E9HU%2C1545527962%2CB01FKTE5TW%2CB015X4Q21I%2C1974494845%2CB08HTKBRKT%2CB07Y5GZ8ZZ%2CB0899FY9XP%2CB001TO5G6E%2CB08HTVRZK2%2CB08HTDVKD6%2CB084XQZYVT%2CB08HTDC8XM%2CB01M0HSLCT%2CB004EAIY3M">Amazon</a> and the copyright is believed to belong to its publisher <a href="https://us.macmillan.com/publishers/square-fish-books/">Square Fish Books</a>.
+
+- The Cover Image of "Hachiko: The True Story of a loyal Dog" by Pamela S. Turner comes from <a href="https://www.amazon.co.uk/Hachiko-True-Story-Loyal-Dog/dp/0547237553/ref=sr_1_2?keywords=hachiko&qid=1636647758&qsid=257-5039210-9072519&sr=8-2&sres=B08WV8HYY2%2C0547237553%2CB00005G2DH%2C0312558066%2CB08HTVRZK2%2CB01B3A1BNU%2CB08HTKBRKT%2CB015QN628E%2C190686196X%2CB07Q57TR85%2C1973380137%2CB00H36AK2W%2CB07VLGD3R2%2CB071RN7MPQ%2CB01CRM9S74%2CB07WYZZXKL&srpt=DOWNLOADABLE_MOVIE">Amazon</a> and the illustration of it was done by Yan Nascimbene.
+
+- The Movie Trailer of "Hachiko Monogatari" comes from the <a href="https://www.youtube.com/watch?v=d_u1FrfgSwo">HD Retro Trailers Channel on Youtube</a>. Copyright belongs to the <a href="https://www.shochiku.co.jp/global/">Shochiku Company</a>.
+
+- The Movie Trailer of "Hachi - A Dog's Tale" comes from the <a href="https://www.youtube.com/watch?v=Y6U7mAnPtw4&t=1s">Official Sony Pictures Home Entertainment Youtube Channel</a>. Copyright belongs to <a href="https://www.sonypictures.com/">Sony Pictures Home Entertainment</a>.
+
+### Readme
+
+-   The Basic Structure of the Readme was taken from [Code Institute's Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md).
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   My Peers in Code Institute's Slack channel for their feedback.
