@@ -11,6 +11,7 @@ body {
     font-family: Quattrocento-Sans, Helvetica, Arial, sans-serif;
     color: rgb(226, 223, 218); 
     background-color: rgb(38, 38, 38);
+    font-size: 110%;
 }
 
 header {
@@ -113,7 +114,7 @@ a {
 /* Overlay text for Hero Image Code taken and modified from Code Institute's Love Running Project ->  taken from Code Institute's Love Running project -> https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode */
 
 #cover-text {
-    font-size: 200%;
+    font-size: 190%;
     font-family: Quattrocento, Garamond, "Times New Roman";
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -170,6 +171,10 @@ a {
     clear: both;
 }
 
+.content-next-to-img {
+    min-height: 520px;
+}
+
 .two-column-content a {
     font-weight: bold;
 }
@@ -204,10 +209,12 @@ hr {
 
 .content-left {
     float: left;
+    clear: left;
 }
 
 .content-right {
     float: right;
+    clear: right;
 }
 
 /* Rounded edges for images */
@@ -330,6 +337,10 @@ hr {
         height: 425px;
         padding: 0%;
     }
+
+    .content-next-to-img {
+        min-height: 425px;
+    }
 }
 
 /* For medium to low size screens from 950px wide and down */
@@ -384,6 +395,10 @@ hr {
     .content-img {
         height: 520px;
     } 
+
+    .content-next-to-img {
+        min-height: 0px;
+    }
 
     #statue-google-maps iframe {
         width: 525px;
