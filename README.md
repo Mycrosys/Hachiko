@@ -85,6 +85,11 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 - Mobile Results:
   <h2><img src="./assets/images/lighthouse_result_mobile.jpg" alt="Results of Google Lighthouse test for Mobile devices"></h2>
 
+On the live version of the website, there is an Issue recorded relating to SameSite Cookies. This is probably related to the Server Configuration of Github Pages and cannot be fixed client side.
+<h2><img src="./assets/images/samesite_cookie.jpg" alt="Issues reported by Google Lighthouse on mobile testing"></h2>
+
+As for Performance, Google Lighthouse advised to use WEBP instead of JPG. Due to compatibility issues, (Safari on MacOS does not support WEBP) I have opted to keep using JPG instead of WEBP. The Performance difference is minimal and I want to maximize compatibility.
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
