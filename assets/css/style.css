@@ -70,7 +70,7 @@ a {
     color: #f89e4f;
 }
 
-/* Hero Image */
+/* Hero Image - Code taken and modified from Code Institute's Love Running Project ->  taken from Code Institute's Love Running project -> https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode */
 
 #hero-outer {
     height: 600px;
@@ -110,7 +110,7 @@ a {
     }
 }
 
-/* Overlay text for Hero Image */
+/* Overlay text for Hero Image Code taken and modified from Code Institute's Love Running Project ->  taken from Code Institute's Love Running project -> https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode */
 
 #cover-text {
     font-size: 200%;
