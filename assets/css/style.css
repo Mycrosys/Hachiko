@@ -272,6 +272,7 @@ hr {
 
 #comment-field {
     height: 250px;
+    color: rgb(38, 38, 38);
 }
 
 #enter-button, #reset-button {

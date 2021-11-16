@@ -90,6 +90,13 @@ On the live version of the website, there is an Issue recorded relating to SameS
 
 As for Performance, Google Lighthouse advised to use WEBP instead of JPG. Due to compatibility issues, (Safari on MacOS does not support WEBP) I have opted to keep using JPG instead of WEBP. The Performance difference is minimal and I want to maximize compatibility.
 
+- Contrast and WCAG
+The [Contrast Checker on WebAIM](https://webaim.org/resources/contrastchecker/) was used to check for WCAG AAA to maximize Accessibility.
+
+Text Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=E2DFDA&bcolor=262626)
+Heading Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=F89E4F&bcolor=262626)
+Input Text Color in Raffle Form to white Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=FFFFFF)
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
