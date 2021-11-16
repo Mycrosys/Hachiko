@@ -45,7 +45,7 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 ## Features
 
--   Responsive on all device sizes between 260px-2600px wide
+-   Responsive on all device sizes between unlimited-260px wide
 
 -   Interactive elements (YouTube Movie Trailers, "Available at Amazon" links to Amazon on Media Page, Raffle Page)
 
@@ -130,7 +130,7 @@ The [Contrast Checker on WebAIM](https://webaim.org/resources/contrastchecker/) 
 
 ### Known Bugs
 
--   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k Display), the Hero Image is no longer covering 100% of the width and the cover text falls outside of it.
+-   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k or Ultra Wide Display), the Hero Image is no longer covering 100%. The page is then capped at 2600px and centered in the middle of the window.
 -   On Desktop Devices with a very low resolution (below 260px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
 
 ## Deployment

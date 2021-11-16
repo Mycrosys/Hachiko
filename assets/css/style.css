@@ -316,7 +316,15 @@ hr {
     color: rgb(226, 223, 218);
 }
 
-/* Media queries Sizes 1250px-950px, 950px-650px, 650px-360px and 360px-280px */
+/* Media queries Sizes 2600px+, 1250px-950px, 950px-650px, 650px-360px and 360px-280px */
+
+/* For very large size screens from 2600px wide and up (4K and Ultrawide Monitors) */
+@media screen and (min-width: 2600px) {
+    body {
+        margin: 0 auto;
+        width: 2600px;
+    }
+}
 
 /* For larger to medium size screens from 1250px wide and down */
 @media screen and (max-width: 1250px) {
