@@ -45,9 +45,11 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on all device sizes between 260px-2600px wide
 
--   Interactive elements (Raffle Page)
+-   Interactive elements (YouTube Movie Trailers, "Available at Amazon" links to Amazon on Media Page, Raffle Page)
+
+(Pending further explanations and Screenshots for explanation of Features)
 
 ## Technologies Used
 
