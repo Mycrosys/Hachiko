@@ -170,6 +170,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - The Akita Hero Image comes from <a href="https://pixabay.com/users/maxxxiss-19205165/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5763408">maxxxiss</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5763408">Pixabay</a>.
 
+- The Dog Favicon next to the Websites Name in the Tab comes from the [Iphone Icons Icon Pack from findicons.com](https://findicons.com/pack/2579/iphone_icons) and was designed by [Iconshock](https://www.iconshock.com/).
+
 - Hachiko's Portrait on index.html comes from an Unknown Author from <a href="https://en.wikipedia.org/wiki/Hachik%C5%8D#/media/File:Hachiko.JPG">Wikipedia</a>.
 
 - Hachiko Waiting Image on index.html was taken by Isamu Yamamoto. It was discovered after 80 years when his family was cleaning the house and then given to the sculptur of the second statue, Takeshi Ando, who shared it with the world. The image was taken from the <a href="https://moviepaws.com/2015/11/12/rare-photo-of-legendarily-loyal-japanese-dog-hachiko/">Moviepaws</a> website.
