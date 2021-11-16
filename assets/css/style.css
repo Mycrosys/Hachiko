@@ -324,6 +324,10 @@ hr {
         margin: 0 auto;
         width: 2600px;
     }
+
+    header {
+        width: inherit;
+    }
 }
 
 /* For larger to medium size screens from 1250px wide and down */
