@@ -6,21 +6,42 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 <h2 align="center"><img src="./assets/images/website_hachiko.jpg" alt="The Story of Hachiko Webpage on multiple devices"></h2>
 
+<br><br>
+
 ## User Experience (UX)
 
--   ### User stories
+-   ### Strategy Plane
+    
+    1. The Strategy for this Site is mostly a Personal, mainly to pass the Portfolio 1 Project. I want to do this by creating an Informational Site about the Story of Hachiko, which should target Dog Lovers and families with Dog's and other Pets.
+    2. For that reason I checked other Page's that tell the story, mainly [Wikipedia](https://en.wikipedia.org/wiki/Hachik%C5%8D) and [Nerd Nomads](https://nerdnomads.com/hachiko_the_dog), both being very early google search hits. While Wikipedia is mostly an informational Internet Lexicon, Nerd Nomads is a Travel Blog. Both do have more content than shown on this site, but lack focus. Neither of them has the same target audience (Wikipedia is more for the Information, Nerd Nomads are more about traveling). In addition, both sites have too much content stacked together instead of focusing more on key aspects of both Hachiko's Story and/or the Books and Movies around him.
 
-    -   #### First Time Visitor Goals
+-   ### Scope Plane
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the story of Hachiko.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    1. The Scope will cover the basic Story of Hachiko and the Location of his Statue near Shibuya station where he waited for his owner. 
+    2. The Site will also contain advice for family friendly media, mainly the two movies and 2 Books for younger children, if families want to introduce their children to Hachiko's story.
+    3. Travel advice is out of Scope. However, as mentioned above, the google maps location of Hachiko's Statue is included, because it is a  major part of the overall story and one of the reasons why it is still being told today. I therefore consider it part of the Story and Information.
 
-    -   #### Returning Visitor Goals
+-   ### Structure Plane
 
-        1. As a Returning Visitor, I want to find out if there is new information that has come out about the story.
-        2. As a Returning Visitor, I want to find out if there have been new media, e.g. books, movies either about Hachiko, or comparable pet stories that I may share with my family members.
+    1. The Structure of the Site should be simple. I decided for a linear structure, each content type having their separate Page, easily navigatable through the top navigation. Each Page can be reached from each location, because the Navigation Bar is always the same, always on top on each page, so there is no confusion how to reach the sub-pages.
+    2. There are 3 Pages in total. A big index page with the most relevant information, a media page for different ways of consuming the story, and a page to enter a raffle and subscribe to the newsletter.
+    
+-   ### Skeleton Plane
 
--   ### Design
+    1. The [Wireframes](#wireframes) can be found further down in this Document.
+    2. The Page is presented with an image or video on one side and an explaining text next to it.
+    3. The side this is implemented switches with each new content, meaning you have a picture on the left and explaining text on the right, the next content will show the picture (or movie) on the right and the text on the left.
+    4. On mobile devices this changes to media content (image or movie) first, then the text below, then media content again, then text again to not confuse the visitor.
+
+-   ### Surface Plane
+
+    1. The Webpage uses rounded corners for all images and the google map.
+    2. Fontawesome was used for both the navigation and footer links. Comparable Icons are used on other sites so this should feel familiar to the visitor.
+    3. Further Details like Font/Color choice, etc. can be found in the next separate Section: [Design](#design).
+
+<br>
+
+*   ### <a name="design">Design</a>
     -   #### Colour Scheme
         -   The three main colors used are a dark greyish (#262626), a variation of white (#e2dfda) and an orange tone (#f89e4f). The grey and white are used to fit in with the black and white pictures, while the orange represents a color tone that can be seen in the modern day Akita dog breed and is used to highlight certain elements like links and headers.
     -   #### Typography
@@ -34,18 +55,34 @@ This is an informational website about the story of a Japanese Dog around the 19
     -   #### Google Maps
         -   The Story Page has a Google Maps location implemented, where the Statue of Hachiko can be visited. It is styled to not have color (like the pictures on the main site), for consistent design.
 
-*   ### Wireframes
+<br>
 
+*   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the story of Hachiko.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to find out if there is new information that has come out about the story.
+        2. As a Returning Visitor, I want to find out if there have been new media, e.g. books, movies either about Hachiko, or comparable pet stories that I may share with my family members.
+
+<br>
+
+*   ### <a name="wireframes">Wireframes</a>
     -   Home Page Wireframe
-        <h2><img src="./assets/images/wireframe_index_desktop.jpg" alt="Wireframe of the Index page on desktop devices"></h2>
+        <h2><img src="./assets/images/wireframe_index_desktop.jpg" alt="Wireframe of the Index page on desktop devices"></h2><br>
     -   Mobile Wireframe
-        <h2><img src="./assets/images/wireframe_index_mobile.jpg" alt="Wireframe of the Index page on a mobile device"></h2>
+        <h2><img src="./assets/images/wireframe_index_mobile.jpg" alt="Wireframe of the Index page on a mobile device"></h2><br>
     -   Raffle Page Wireframe
-        <h2><img src="./assets/images/wireframe_raffle_desktop.jpg" alt="Wireframe of the Index page on desktop devices"></h2>
+        <h2><img src="./assets/images/wireframe_raffle_desktop.jpg" alt="Wireframe of the Index page on desktop devices"></h2><br>
+
 
 ## Features
 
--   Responsive on all device sizes between unlimited-260px wide
+-   Responsive on all device sizes
 
 -   Interactive elements (YouTube Movie Trailers, "Available at Amazon" links to Amazon on Media Page, Raffle Page)
 
@@ -90,8 +127,7 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
 - As for Performance, Google Lighthouse advised to use WEBP instead of JPG. Due to compatibility issues, (Safari on MacOS does not support WEBP) I have opted to keep using JPG instead of WEBP. The Performance difference is minimal and I want to maximize compatibility.
 
-- Contrast and WCAG
-The [Contrast Checker on WebAIM](https://webaim.org/resources/contrastchecker/) was used to check for WCAG AAA to maximize Accessibility.
+- Contrast and WCAG: The [Contrast Checker on WebAIM](https://webaim.org/resources/contrastchecker/) was used to check for WCAG AAA to maximize Accessibility.
 
     1. Text Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=E2DFDA&bcolor=262626)
     2. Heading Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=F89E4F&bcolor=262626)
