@@ -6,38 +6,39 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 <h2 align="center"><img src="./assets/images/website_hachiko.jpg" alt="The Story of Hachiko Webpage on multiple devices"></h2>
 
-<br><br>
+<br>
 
 ## User Experience (UX)
 
--   ### Strategy Plane
+*   ### Five Planes of UXD
+    -   #### Strategy Plane
     
-    1. The Strategy for this Site is mostly a Personal, mainly to pass the Portfolio 1 Project. I want to do this by creating an Informational Site about the Story of Hachiko, which should target Dog Lovers and families with Dog's and other Pets.
-    2. For that reason I checked other Page's that tell the story, mainly [Wikipedia](https://en.wikipedia.org/wiki/Hachik%C5%8D) and [Nerd Nomads](https://nerdnomads.com/hachiko_the_dog), both being very early google search hits. While Wikipedia is mostly an informational Internet Lexicon, Nerd Nomads is a Travel Blog. Both do have more content than shown on this site, but lack focus. Neither of them has the same target audience (Wikipedia is more for the Information, Nerd Nomads are more about traveling). In addition, both sites have too much content stacked together instead of focusing more on key aspects of both Hachiko's Story and/or the Books and Movies around him.
+        1. The Strategy for this Site is mostly a Personal, mainly to pass the Portfolio 1 Project. I want to do this by creating an Informational Site about the Story of Hachiko, which should target Dog Lovers and families with Dog's and other Pets.
+        2. For that reason I checked other Page's that tell the story, mainly [Wikipedia](https://en.wikipedia.org/wiki/Hachik%C5%8D) and [Nerd Nomads](https://nerdnomads.com/hachiko_the_dog), both being very early google search hits. While Wikipedia is mostly an informational Internet Lexicon, Nerd Nomads is a Travel Blog. Both do have more content than shown on this site, but lack focus. Neither of them has the same target audience (Wikipedia is more for the Information, Nerd Nomads are more about traveling). In addition, both sites have too much content stacked together instead of focusing more on key aspects of both Hachiko's Story and/or the Books and Movies around him.
 
--   ### Scope Plane
+    -   #### Scope Plane
 
-    1. The Scope will cover the basic Story of Hachiko and the Location of his Statue near Shibuya station where he waited for his owner. 
-    2. The Site will also contain advice for family friendly media, mainly the two movies and 2 Books for younger children, if families want to introduce their children to Hachiko's story.
-    3. Travel advice is out of Scope. However, as mentioned above, the google maps location of Hachiko's Statue is included, because it is a  major part of the overall story and one of the reasons why it is still being told today. I therefore consider it part of the Story and Information.
+        1. The Scope will cover the basic Story of Hachiko and the Location of his Statue near Shibuya station where he waited for his owner. 
+        2. The Site will also contain advice for family friendly media, mainly the two movies and 2 Books for younger children, if families want to introduce their children to Hachiko's story.
+        3. Travel advice is out of Scope. However, as mentioned above, the google maps location of Hachiko's Statue is included, because it is a  major part of the overall story and one of the reasons why it is still being told today. I therefore consider it part of the Story and Information.
 
--   ### Structure Plane
+    -   #### Structure Plane
 
-    1. The Structure of the Site should be simple. I decided for a linear structure, each content type having their separate Page, easily navigatable through the top navigation. Each Page can be reached from each location, because the Navigation Bar is always the same, always on top on each page, so there is no confusion how to reach the sub-pages.
-    2. There are 3 Pages in total. A big index page with the most relevant information, a media page for different ways of consuming the story, and a page to enter a raffle and subscribe to the newsletter.
+        1. The Structure of the Site should be simple. I decided for a linear structure, each content type having their separate Page, easily navigatable through the top navigation. Each Page can be reached from each location, because the Navigation Bar is always the same, always on top on each page, so there is no confusion how to reach the sub-pages.
+        2. There are 3 Pages in total. A big index page with the most relevant information, a media page for different ways of consuming the story, and a page to enter a raffle and subscribe to the newsletter.
     
--   ### Skeleton Plane
+    -   #### Skeleton Plane
 
-    1. The [Wireframes](#wireframes) can be found further down in this Document.
-    2. The Page is presented with an image or video on one side and an explaining text next to it.
-    3. The side this is implemented switches with each new content, meaning you have a picture on the left and explaining text on the right, the next content will show the picture (or movie) on the right and the text on the left.
-    4. On mobile devices this changes to media content (image or movie) first, then the text below, then media content again, then text again to not confuse the visitor.
+        1. The [Wireframes](#wireframes) can be found further down in this Document.
+        2. The Page is presented with an image or video on one side and an explaining text next to it.
+        3. The side this is implemented switches with each new content, meaning you have a picture on the left and explaining text on the right, the next content will show the picture (or movie) on the right and the text on the left.
+        4. On mobile devices this changes to media content (image or movie) first, then the text below, then media content again, then text again to not confuse the visitor.
 
--   ### Surface Plane
+    -   #### Surface Plane
 
-    1. The Webpage uses rounded corners for all images and the google map.
-    2. Fontawesome was used for both the navigation and footer links. Comparable Icons are used on other sites so this should feel familiar to the visitor.
-    3. Further Details like Font/Color choice, etc. can be found in the next separate Section: [Design](#design).
+        1. The Webpage uses rounded corners for all images and the google map.
+        2. Fontawesome was used for both the navigation and footer links. Comparable Icons are used on other sites so this should feel familiar to the visitor.
+        3. Further Details like Font/Color choice, etc. can be found in the next separate Section: [Design](#design).
 
 <br>
 
@@ -79,14 +80,19 @@ This is an informational website about the story of a Japanese Dog around the 19
     -   Raffle Page Wireframe
         <h2><img src="./assets/images/wireframe_raffle_desktop.jpg" alt="Wireframe of the Index page on desktop devices"></h2><br>
 
+<br>
 
 ## Features
 
--   Responsive on all device sizes
+###   Responsive on all device sizes
+    - The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultrawide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
+    
 
 -   Interactive elements (YouTube Movie Trailers, "Available at Amazon" links to Amazon on Media Page, Raffle Page)
 
 (Pending further explanations and Screenshots for explanation of Features)
+
+<br>
 
 ## Technologies Used
 
@@ -108,12 +114,16 @@ This is an informational website about the story of a Japanese Dog around the 19
 1. [Gimp:](https://www.gimp.org/)
     - Gimp was used to create, modify and resize all images on this website. It was also used to create the wireframes.
 
+<br>
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmycrosys.github.io%2FHachiko%2Findex.html)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmycrosys.github.io%2FHachiko%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
+
+<br>
 
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
@@ -127,11 +137,15 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
 - As for Performance, Google Lighthouse advised to use WEBP instead of JPG. Due to compatibility issues, (Safari on MacOS does not support WEBP) I have opted to keep using JPG instead of WEBP. The Performance difference is minimal and I want to maximize compatibility.
 
+<br>
+
 - Contrast and WCAG: The [Contrast Checker on WebAIM](https://webaim.org/resources/contrastchecker/) was used to check for WCAG AAA to maximize Accessibility.
 
     1. Text Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=E2DFDA&bcolor=262626)
     2. Heading Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=F89E4F&bcolor=262626)
     3. Input Text Color in Raffle Form to white Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=FFFFFF)
+
+<br>
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -145,7 +159,7 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
         1. The site has been designed so each page can stand on its own and the visitor can freely choose to switch between each of them at any time. The Navigation points were named fittingly, so the visitor always knows what to expect on that site.
-        2. The Navigation is fixed at the top and scrolls with the page. It is semi transparent to not obscure the top content fully, yet is read- and useable at any time-
+        2. The Navigation is fixed at the top and scrolls with the page. It is semi transparent to not obscure the top content fully, yet is read- and useable at any time.
 
 -   #### Returning Visitor Goals
 
@@ -157,6 +171,8 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
         1. The same holds true for media content, e.g. pictures and books. While there may not be a new movie about the Story of Hachiko for a while, similar dog and other pet stories, movies and books might show up in the coming years. Pet Lovers might be interested in getting to know which movies and books there are and introduce their children to it.
 
+<br>
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Firefox, Opera GX and Safari browsers.
@@ -164,10 +180,14 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 -   Testing was done to ensure that all pages were linking correctly.
 -   Friends were asked to review the site to point out any bugs and/or user experience issues.
 
+<br>
+
 ### Known Bugs
 
 -   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k or Ultra Wide Display), the Hero Image is no longer covering 100%. The page is then capped at 2600px and centered in the middle of the window.
--   On Desktop Devices with a very low resolution (below 260px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
+-   On Desktop Devices with a very low resolution (below 280px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
+
+<br>
 
 ## Deployment
 
@@ -201,6 +221,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 7. Press Enter. Your local clone will be created.
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+<br>
 
 ## Credits
 

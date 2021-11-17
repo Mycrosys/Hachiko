@@ -460,19 +460,20 @@ hr {
 @media screen and (max-width: 360px) {
     #logo {
         margin-left: 10px;
+        font-size: 300%;
     }   
 
     #menu {
-        margin-left: 5px;
+        margin-left: 10px;
     }
     
     #menu li {
         margin-right: 5px;
-        font-size: 85%;
+        font-size: 80%;
     }
     
     #cover-text2 {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .content-img {
