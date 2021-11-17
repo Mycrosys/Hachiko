@@ -1,4 +1,4 @@
-<h1 align="center">The Story of Hachiko Website</h1>
+<h1 align="center"><a name="top">The Story of Hachiko Website</a></h1>
 
 [View the live project here.](https://mycrosys.github.io/Hachiko/)
 
@@ -50,7 +50,7 @@ This is an informational website about the story of a Japanese Dog around the 19
         -   To complement this, Quattrocento is used as a main header font. Because it is from the same family, it pairs exceptionally well with Quattrocento-Sans. Its backup fonts are Garamond and Times New Roman.
     -   #### Imagery
         -   The site contains a large background hero image (reduced on smaller devices) to immediately capture the attention of the visitor. It contains two cover text, one repeating the name Hachiko with the Japanese writing over it and one with the subtitle "A Heartbreaking Story". It should be obvious to everyone, what the site is all about, with many people even taking the hint that it is a Japanese, or at least Asian based stories.
-        -   The website features a couple of additional pictures. The Story Page contains mostly historical pictures from the time period the story took place and the Media Page contains some book covers that feature drawn Akita dogs.
+        -   The website features a couple of additional pictures. The Story Page contains mostly historical pictures from the time period the story took place and the Media Page contains some book covers that feature drawn Akita dogs. All Pictures have the alt attribute to maximize accessibility.
     -   #### Videos
         -   The site has 2 movies on the media page, one for each of the 2 movies that were made. They start playing once the user clicks on them and if they want to, they can go to the webpage they are hosted on (YouTube). Neither video does anything until it is clicked, just showing its basic thumbnail until the visitor interacts with it.
     -   #### Google Maps
@@ -85,12 +85,26 @@ This is an informational website about the story of a Japanese Dog around the 19
 ## Features
 
 ###   Responsive on all device sizes
-    - The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultrawide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
-    
 
--   Interactive elements (YouTube Movie Trailers, "Available at Amazon" links to Amazon on Media Page, Raffle Page)
+- The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultrawide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
+- For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshot, emulating different sizes on google chrome / windows 10.
+    1.  Desktop Resolution
+    <h2><img src="./assets/images/webpage_desktop.jpg" alt="Picture of the page on Desktop Resolution"></h2><br>
+    2.  Tablet Resolution
+    <h2><img src="./assets/images/webpage_tablet.jpg" alt="Picture of the page on Tablet Resolution"></h2><br>
+    3.  Phone Resolution
+    <h2><img src="./assets/images/webpage_phone.jpg" alt="Picture of the page on Phone Resolution"></h2><br>
 
-(Pending further explanations and Screenshots for explanation of Features)
+###   Interactive elements
+- YouTube Movie Trailers: Only start playing when the visitor clicks them. The Visitor can then play them in the smaller window, Fullscreen them or go to YouTube to watch it there. Furthermore, the embedded video is configured to not use any cookies the visitor may have on YouTube that may interfere with the embedded video.
+- Links: Textlinks either lead to [Wikipedia](https://www.wikipedia.org/), [IMDB](https://www.imdb.com/) or have an image Link with "Available at Amazon" to their respective product page on Amazon.co.uk for buying the product. Every Link has the rel="noopener" attribute for security reasons. None of the Amazon links are affiliate links.
+- Raffle:
+    1. The First Name, Last Name, Email Field and "Do you own Pets" Radio Buttons are required fields. If the Visitor does not enter data into one, the Enter Button to Submit the Form will not work and the Visitor will be informed.
+    2. The Email Field only accepts emails with an @ in it.
+    3. The Newsletter Checkbox is checked by default.
+    4. Pushing the Reset Button will reset the whole form to its standard values. All Text fields will be empty, no radio button selected and the Newsletter checkbox will be checked.
+    5. Both the Enter and Reset Buttons will switch background and text color when the visitor hovers over them, giving feedback that they can press the button with a mouse click.
+    <h2><img src="./assets/images/enter_button.jpg" alt="Picture of the raffle page enter button with and without hovering over it"></h2><br>
 
 <br>
 
@@ -144,6 +158,8 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
     1. Text Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=E2DFDA&bcolor=262626)
     2. Heading Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=F89E4F&bcolor=262626)
     3. Input Text Color in Raffle Form to white Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=FFFFFF)
+
+- Resolution and Scaling were tested with Google Dev tools down to the lowest width device (Galaxy Fold, 280px) to ensure the website works flawlessly on all resolutions 280px and above.
 
 <br>
 
