@@ -96,7 +96,7 @@ a {
     
     /* animates zoom out effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 8s;
+    animation-duration: 5s;
     animation-fill-mode: backwards;
 }
 
