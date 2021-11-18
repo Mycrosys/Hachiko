@@ -207,6 +207,7 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 -   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k or Ultra Wide Display), the Hero Image is no longer covering 100%. The page is then capped at 2600px and centered in the middle of the window.
 -   On Desktop Devices with a very low resolution (below 280px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
+-   On Internet Explorer 11, the attribute "filter" is not supported. Therefore, the Google Maps iframe is not shown in greyscale and instead in color. A warning will appear in the window that Google Maps API isn't supported well and the visitor should consider changing his/her browser.
 
 <br>
 
