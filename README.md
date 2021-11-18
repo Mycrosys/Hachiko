@@ -10,7 +10,6 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 *   ### Five Planes of UXD
     -   #### Strategy Plane
-    
         1. The Strategy for this Site is mostly a Personal, mainly to pass the Portfolio 1 Project. I want to do this by creating an Informational Site about the Story of Hachiko, which should target Dog Lovers and families with Dog's and other Pets.
         2. For that reason I checked other Page's that tell the story, mainly [Wikipedia](https://en.wikipedia.org/wiki/Hachik%C5%8D) and [Nerd Nomads](https://nerdnomads.com/hachiko_the_dog), both being very early google search hits. While Wikipedia is mostly an informational Internet Lexicon, Nerd Nomads is a Travel Blog. Both do have more content than shown on this site, but lack focus. Neither of them has the same target audience (Wikipedia is more for the Information, Nerd Nomads are more about traveling). In addition, both sites have too much content stacked together instead of focusing more on key aspects of both Hachiko's Story and/or the Books and Movies around him.
 
@@ -41,16 +40,21 @@ This is an informational website about the story of a Japanese Dog around the 19
 <br>
 
 *   ### <a name="design">Design</a>
+  
     -   #### Colour Scheme
         -   The three main colors used are a dark greyish (#262626), a variation of white (#e2dfda) and an orange tone (#f89e4f). The grey and white are used to fit in with the black and white pictures, while the orange represents a color tone that can be seen in the modern day Akita dog breed and is used to highlight certain elements like links and headers.
+  
     -   #### Typography
         -   The Quattrocento-Sans font is used as the main font for the whole website with Helvetica, Arial and  sans-serif as fallback fonts in case the font doesn't import correctly. It is a very easy to read font and does fit the site well, not taking away from the overall design or the image/movie elements.
         -   To complement this, Quattrocento is used as a main header font. Because it is from the same family, it pairs exceptionally well with Quattrocento-Sans. Its backup fonts are Garamond and Times New Roman.
+  
     -   #### Imagery
         -   The site contains a large background hero image (reduced on smaller devices) to immediately capture the attention of the visitor. It contains two cover text, one repeating the name Hachiko with the Japanese writing over it and one with the subtitle "A Heartbreaking Story". It should be obvious to everyone, what the site is all about, with many people even taking the hint that it is a Japanese, or at least Asian based stories.
         -   The website features a couple of additional pictures. The Story Page contains mostly historical pictures from the time period the story took place and the Media Page contains some book covers that feature drawn Akita dogs. All Pictures have the alt attribute to maximize accessibility.
+  
     -   #### Videos
         -   The site has 2 movies on the media page, one for each of the 2 movies that were made. They start playing once the visitor clicks on them and if they want to, they can go to the webpage they are hosted on (YouTube). Neither video does anything until it is clicked, just showing its basic thumbnail until the visitor interacts with it.
+  
     -   #### Google Maps
         -   The Story Page has a Google Maps location implemented, where the Statue of Hachiko can be visited. It is styled to not have color (like the pictures on the main site), for consistent design.
 
@@ -85,6 +89,7 @@ This is an informational website about the story of a Japanese Dog around the 19
 ###   Responsive on all device sizes
 
 - The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultrawide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
+
 - For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshot, emulating different sizes on google chrome / windows 10.
     1.  Desktop Resolution
             <h2><img src="./assets/images/webpage_desktop.jpg" alt="Picture of the page on Desktop Resolution"></h2><br>
@@ -94,14 +99,17 @@ This is an informational website about the story of a Japanese Dog around the 19
             <h2><img src="./assets/images/webpage_phone.jpg" alt="Picture of the page on Phone Resolution"></h2><br>
 
 ###   Interactive elements
+
 - YouTube Movie Trailers: Only start playing when the visitor clicks them. The Visitor can then play them in the smaller window, Fullscreen them or go to YouTube to watch it there. Furthermore, the embedded video is configured to not use any cookies the visitor may have on YouTube that may interfere with the embedded video.
+
 - Links: Textlinks either lead to [Wikipedia](https://www.wikipedia.org/), [IMDB](https://www.imdb.com/) or have an image Link with "Available at Amazon" to their respective product page on Amazon.co.uk for buying the product. Every Link has the rel="noopener" attribute for security reasons. None of the Amazon links are affiliate links. This is a fast and easy way for the visitor to buy the product.
+
 - Raffle:
     1. The First Name, Last Name, Email Field and "Do you own Pets" Radio Buttons are required fields. If the Visitor does not enter data into one, the Enter Button to Submit the Form will not work and the Visitor will be informed that required data is missing.
-    2. The Email Field only accepts emails with an @ in it. This and the previous point will prevent submitting forms with missing information.
-    3. The Newsletter Checkbox is checked by default to always sign up the visitor unless he unchecks it.
-    4. Pushing the Reset Button will reset the whole form to its standard values. All Text fields will be empty, no radio button selected and the Newsletter checkbox will be checked. This is a fast way for a visitor to clear all Inputs.
-    5. Both the Enter and Reset Buttons will switch background and text color when the visitor hovers over them, giving feedback that they can press the button with a mouse click.
+    1. The Email Field only accepts emails with an @ in it. This and the previous point will prevent submitting forms with missing information.
+    1. The Newsletter Checkbox is checked by default to always sign up the visitor unless he unchecks it.
+    1. Pushing the Reset Button will reset the whole form to its standard values. All Text fields will be empty, no radio button selected and the Newsletter checkbox will be checked. This is a fast way for a visitor to clear all Inputs.
+    1. Both the Enter and Reset Buttons will switch background and text color when the visitor hovers over them, giving feedback that they can press the button with a mouse click.
                 <h2><img src="./assets/images/enter_button.jpg" alt="Picture of the raffle page enter button with and without hovering over it"></h2><br>
 
 ## Technologies Used
@@ -128,36 +136,35 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+### General Testing
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmycrosys.github.io%2FHachiko%2Findex.html)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmycrosys.github.io%2FHachiko%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
+1. The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmycrosys.github.io%2FHachiko%2Findex.html)
+    - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmycrosys.github.io%2FHachiko%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
+
+2. Contrast and WCAG: The [Contrast Checker on WebAIM](https://webaim.org/resources/contrastchecker/) was used to check for WCAG AAA to maximize Accessibility.
+    - Text Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=E2DFDA&bcolor=262626)
+    - Heading Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=F89E4F&bcolor=262626)
+    - Input Text Color in Raffle Form to white Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=FFFFFF)
+
+3. Resolution and Scaling were tested with Google Dev tools down to the lowest width device (Galaxy Fold, 280px) to ensure the website works flawlessly on all resolutions 280px and above.
+
+4. The Raffle Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, not selecting any radio option, with and without comments and checked and unchecked checkbox. The Form always returned the correct information. The Reset Button also worked as intended, resetting the form to its predefined state.
 
 <br>
 
-Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
+### Google Lighthouse Testing
 
-- Desktop Results:
+1. Results
+- Desktop:
   <h2><img src="./assets/images/lighthouse_result_desktop.jpg" alt="Results of Google Lighthouse test for Desktop devices"></h2>
-- Mobile Results:
+- Mobile:
   <h2><img src="./assets/images/lighthouse_result_mobile.jpg" alt="Results of Google Lighthouse test for Mobile devices"></h2>
 
-- On the live version of the website, there is an Issue recorded in Lighthouse relating to SameSite Cookies, lowering the "Best Practices" Score. This is probably related to the Server Configuration of Github Pages and cannot be fixed client side.
-  <h2><img src="./assets/images/samesite_cookie.jpg" alt="Issues reported by Google Lighthouse on mobile testing"></h2>
+2. On the live version of the website, there is an Issue recorded in Lighthouse relating to SameSite Cookies, lowering the "Best Practices" Score. This is probably related to the Server Configuration of Github Pages and cannot be fixed client side.
+    <h2><img src="./assets/images/samesite_cookie.jpg" alt="Issues reported by Google Lighthouse on mobile testing"></h2>
 
-- As for Performance, Google Lighthouse advised to use WEBP instead of JPG. Due to compatibility issues, (Safari on MacOS does not support WEBP) I have opted to keep using JPG instead of WEBP. The Performance difference is minimal and I want to maximize compatibility.
-
-<br>
-
-- Contrast and WCAG: The [Contrast Checker on WebAIM](https://webaim.org/resources/contrastchecker/) was used to check for WCAG AAA to maximize Accessibility.
-
-    1. Text Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=E2DFDA&bcolor=262626)
-    2. Heading Color on the site Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=F89E4F&bcolor=262626)
-    3. Input Text Color in Raffle Form to white Background: [Results](https://webaim.org/resources/contrastchecker/?fcolor=262626&bcolor=FFFFFF)
-
-- Resolution and Scaling were tested with Google Dev tools down to the lowest width device (Galaxy Fold, 280px) to ensure the website works flawlessly on all resolutions 280px and above.
-
-- The Raffle Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, not selecting any radio option, with and without comments and checked and unchecked checkbox. The Form always returned the correct information. The Reset Button also worked as intended, resetting the form to its predefined state.
+3. As for Performance, Google Lighthouse advised to use WEBP instead of JPG. Due to compatibility issues, (Safari on MacOS does not support WEBP) I have opted to keep using JPG instead of WEBP. The Performance difference is minimal and I want to maximize compatibility.
 
 <br>
 
@@ -190,7 +197,7 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Firefox, Opera GX and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPad and different Android and iOS Phones.
+-   The Website was viewed on a variety of devices such as Desktop, Laptop, iPad and different Android and iOS Phones.
 -   Testing was done to ensure that all pages were linking correctly.
 -   Friends were asked to review the site to point out any bugs and/or user experience issues.
 
