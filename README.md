@@ -157,6 +157,8 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
 - Resolution and Scaling were tested with Google Dev tools down to the lowest width device (Galaxy Fold, 280px) to ensure the website works flawlessly on all resolutions 280px and above.
 
+- The Raffle Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, not selecting any radio option, with and without comments and checked and unchecked checkbox. The Form always returned the correct information. The Reset Button also worked as intended, resetting the form to its predefined state.
+
 <br>
 
 ### Testing User Stories from User Experience (UX) Section
@@ -248,7 +250,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The pairings of the colors and fonts comes from [this Blog post](https://www.pagecloud.com/blog/best-google-fonts-pairings).
 
-### Media
+### Images and Media
 
 - The Akita Hero Image comes from [maxxxiss](https://pixabay.com/users/maxxxiss-19205165/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5763408) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5763408).
 
