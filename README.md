@@ -2,7 +2,7 @@
 
 [View the live project here.](https://mycrosys.github.io/Hachiko/)
 
-This is an informational website about the story of a Japanese Dog around the 1920s and 1930s. It is designed to be responsive on Desktop and mobile devices and easy to navigate both for first-time as well as returning visitors. The main target audience are Animal/Dog/Pet Lovers. The site is designed to be family friendly and the more gruesome details (e.g. Hachiko's autopsy) have been omitted, while the important details of the overall story are preserved.
+This is an informational website about the story of a Japanese Dog around the 1920s and 1930s. It is designed to be responsive on Desktop and mobile devices and easy to navigate both for first-time and returning visitors. The main target audience are Animal/Dog/Pet Lovers. The site is designed to be family friendly and the more gruesome details (e.g. Hachiko's autopsy) have been omitted, while the important details of the overall story are preserved.
 
 <h2 align="center"><img src="./assets/images/website_hachiko.jpg" alt="The Story of Hachiko Webpage on multiple devices"></h2>
 
@@ -21,7 +21,7 @@ This is an informational website about the story of a Japanese Dog around the 19
 
     -   #### Structure Plane
 
-        1. The Structure of the Site should be simple. I decided for a linear structure, each content type having their separate Page, easily navigatable through the top navigation. Each Page can be reached from each location, because the Navigation Bar is always the same, always on top on each page, so there is no confusion how to reach the sub-pages.
+        1. The Structure of the Site should be simple. I decided for a linear structure, each content type having their separate Page, easily navigable through the top navigation. Each Page can be reached from each location, because the Navigation Bar is always the same, always on top on each page, so there is no confusion how to reach the sub-pages.
         2. There are 3 Pages in total. A big index page with the most relevant information, a media page for different ways of consuming the story, and a page to enter a raffle and subscribe to the newsletter.
     
     -   #### Skeleton Plane
@@ -33,9 +33,9 @@ This is an informational website about the story of a Japanese Dog around the 19
 
     -   #### Surface Plane
 
-        1. The Webpage uses rounded corners for all images and the google map.
+        1. The Web page uses rounded corners for all images and the google map.
         2. Fontawesome was used for both the navigation and footer links. Comparable Icons are used on other sites so this should feel familiar to the visitor.
-        3. Further Details like Font/Color choice, etc. can be found in the next separate Section: [Design](#design).
+        3. Further, Details like Font/Color choice, etc. can be found in the next separate Section: [Design](#design).
 
 <br>
 
@@ -53,7 +53,7 @@ This is an informational website about the story of a Japanese Dog around the 19
         -   The website features a couple of additional pictures. The Story Page contains mostly historical pictures from the time period the story took place and the Media Page contains some book covers that feature drawn Akita dogs. All Pictures have the alt attribute to maximize accessibility.
   
     -   #### Videos
-        -   The site has 2 movies on the media page, one for each of the 2 movies that were made. They start playing once the visitor clicks on them and if they want to, they can go to the webpage they are hosted on (YouTube). Neither video does anything until it is clicked, just showing its basic thumbnail until the visitor interacts with it.
+        -   The site has 2 movies on the media page, one for each of the 2 movies that were made. They start playing once the visitor clicks on them and if they want to, they can go to the web page they are hosted on (YouTube). Neither video does anything until it is clicked, just showing its basic thumbnail until the visitor interacts with it.
   
     -   #### Google Maps
         -   The Story Page has a Google Maps location implemented, where the Statue of Hachiko can be visited. It is styled to not have color (like the pictures on the main site), for consistent design.
@@ -88,7 +88,7 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 ###   Responsive on all device sizes
 
-- The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultrawide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
+- The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultra wide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
 
 - For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshot, emulating different sizes on google chrome / windows 10.
     1.  Desktop Resolution
@@ -100,15 +100,16 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 ###   Interactive elements
 
-- YouTube Movie Trailers: Only start playing when the visitor clicks them. The Visitor can then play them in the smaller window, Fullscreen them or go to YouTube to watch it there. Furthermore, the embedded video is configured to not use any cookies the visitor may have on YouTube that may interfere with the embedded video.
+- YouTube Movie Trailers: Only start playing when the visitor clicks them. The Visitor can then play them in the smaller window, Full screen them or go to YouTube to watch it there. Furthermore, the embedded video is configured to not use any cookies the visitor may have on YouTube that may interfere with the embedded video.
 
-- Links: Textlinks either lead to [Wikipedia](https://www.wikipedia.org/), [IMDB](https://www.imdb.com/) or have an image Link with "Available at Amazon" to their respective product page on Amazon.co.uk for buying the product. Every Link has the rel="noopener" attribute for security reasons. None of the Amazon links are affiliate links. This is a fast and easy way for the visitor to buy the product.
+- Links: Text links either lead to [Wikipedia](https://www.wikipedia.org/), [IMDB](https://www.imdb.com/) or have an image Link with "Available at Amazon" to their respective product page on Amazon.co.uk for buying the product. Every Link has the rel="noopener" attribute for security reasons. None of the Amazon links are affiliate links. This is a fast and easy way for the visitor to buy the product.
 
 - Raffle:
     1. The First Name, Last Name, Email Field and "Do you own Pets" Radio Buttons are required fields. If the Visitor does not enter data into one, the Enter Button to Submit the Form will not work and the Visitor will be informed that required data is missing.
     1. The Email Field only accepts emails with an @ in it. This and the previous point will prevent submitting forms with missing information.
+    1. For the Radio Buttons, "No Pets" is the default choice, because it is always better to have one option preselected than none at all.
     1. The Newsletter Checkbox is checked by default to always sign up the visitor unless he unchecks it.
-    1. Pushing the Reset Button will reset the whole form to its standard values. All Text fields will be empty, no radio button selected and the Newsletter checkbox will be checked. This is a fast way for a visitor to clear all Inputs.
+    1. Pushing the Reset Button will reset the whole form to its standard values. All Text fields will be empty, the "No Pets" radio button selected and the Newsletter checkbox will be checked. This is a fast way for a visitor to clear all Inputs.
     1. Both the Enter and Reset Buttons will switch background and text color when the visitor hovers over them, giving feedback that they can press the button with a mouse click.
                 <h2><img src="./assets/images/enter_button.jpg" alt="Picture of the raffle page enter button with and without hovering over it"></h2><br>
 
@@ -207,7 +208,7 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 -   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k or Ultra Wide Display), the Hero Image is no longer covering 100%. The page is then capped at 2600px and centered in the middle of the window.
 -   On Desktop Devices with a very low resolution (below 280px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
--   On Internet Explorer 11, the attribute "filter" is not supported. Therefore, the Google Maps iframe is not shown in greyscale and instead in color. A warning will appear in the window that Google Maps API isn't supported well and the visitor should consider changing his/her browser.
+-   On Internet Explorer 11, the attribute "filter" is not supported. Therefore, the Google Maps iframe is not shown in grayscale and instead in color. A warning will appear in the window that Google Maps API isn't supported well and the visitor should consider changing his/her browser.
 
 <br>
 
@@ -220,7 +221,7 @@ The project was deployed to GitHub Pages using the following steps...
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Mycrosys/Hachiko)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Main Branch".
+4. Under "Source", click the drop down called "None" and select "Main Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://mycrosys.github.io/Hachiko/) in the "GitHub Pages" section.
 
