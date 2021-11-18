@@ -150,8 +150,8 @@ This is an informational website about the story of a Japanese Dog around the 19
 
 3. Resolution and Scaling were tested with Google Dev tools down to the lowest width device (Galaxy Fold, 280px) to ensure the website works flawlessly on all resolutions 280px and above.
 
-4. The Raffle Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, not selecting any radio option, with and without comments and checked and unchecked checkbox. The Form always returned the correct information. The Reset Button also worked as intended, resetting the form to its predefined state.
-
+4. The Raffle Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, not selecting any radio option, with and without comments and checked and unchecked checkbox. The Form always gave the correct feedback when something was missing. The Reset Button also worked as intended, resetting the form to its predefined state. When all required Information was provided, it then is posted to Code Institute's Form Dump Page.
+        <h2><img src="./assets/images/form_results.jpg" alt="Results on Code Institute's Form Dump Page after submitting them on the Raffle site"></h2>
 <br>
 
 ### Google Lighthouse Testing
